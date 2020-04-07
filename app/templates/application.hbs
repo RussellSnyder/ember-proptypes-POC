@@ -1,2 +1,3 @@
-<Button @size="asd">YOLO</Button>
-{{outlet}}
+<button {{on 'click' this.toggleButtonSize}}>toggle button size</button>
+<br>
+<Button @size={{buttonSize}}>YOLO</Button>
